@@ -1,10 +1,14 @@
-
-import './App.css';
-
-function App() {
+import Header from "./components/Header";
+import Blogs from "./components/Blogs";
+import Pagination from "./components/Pagination";
+ export default function App() {
   return (
-   <div></div>
+   <div>
+    <Header/>
+    <Blogs/>
+    <Pagination/>
+   </div>
   );
 }
 
-export default App;
+
